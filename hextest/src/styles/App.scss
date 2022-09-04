@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body, #root {
+  height: 100%;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.navigation-block {
+  padding: 20px 0;
+  background: #1a286b;
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    list-style: none;
+    width: 50%;
+    text-align: center;
+
+    a {
+      color: #FFF;
+    }
+  }
+}

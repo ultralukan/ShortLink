@@ -1,0 +1,22 @@
+.profile-block {
+  max-width: 80rem;
+  margin: 0 auto 50px;
+  text-align: center;
+
+  table{
+    margin: 50px auto 0;
+  }
+
+  table, th, td {
+    border: 1px solid;
+  }
+
+  td, th {
+    padding: 5px 10px;
+  }
+
+  th {
+    background: #1a286b;
+    color: #FFFFFF;
+  }
+}

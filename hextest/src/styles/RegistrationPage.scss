@@ -1,0 +1,30 @@
+.form-block {
+  text-align: center;
+  background: #1a286b;
+  width: 100%;
+  max-width: 50rem;
+  margin: 50px auto 0;
+  padding: 50px 0;
+  border-radius: 20px;
+  color: #FFFFFF;
+
+  input {
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  button {
+    padding: 10px;
+    margin-bottom: 25px;
+  }
+
+  &__error {
+    color: red;
+  }
+
+  &__success {
+    color: #11cc11;
+  }
+}
